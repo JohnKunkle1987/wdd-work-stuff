@@ -16,6 +16,7 @@
 body {
 	font-family:"Roboto", Helvetica, sans-serif;
 	font-size: 14px;
+	background: #BEB9B5;
 }
 
 
@@ -101,7 +102,6 @@ section{
     margin: 15px auto;
     overflow: hidden;
     /*border: 1px solid blue;*/
-    background-color:#525564;
 }
 
 section h2{
@@ -122,15 +122,27 @@ section p{
 }
 
 article{
-    width: 50%;
+    width: calc(50% - 15px);
     float: left;
     height: 180px;
     /*padding-top: 125px;*/
     padding-left: 20px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     position: relative;
     font-size: 16px;
+    background-color:#525564;
+
 }
+
+article:nth-of-type(odd)
+{
+    margin-right: 15px;    
+}
+
+#test aticle{
+    margin-right: 3%;
+}
+
 
 /*======== End of selena css here======*/
 
@@ -154,6 +166,9 @@ article div {
     cursor: pointer;
 }
 
+article div:hover {
+    color: #e6e6e6;
+}
 
 
 /*======== footer ======*/
