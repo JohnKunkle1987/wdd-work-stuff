@@ -59,10 +59,61 @@ body {
 #launch a:hover {
     color: #e6e6e6;
 }
-/*======== selena css goes here======*/
+nav{
+    height: 93px;
+    background: url("../images/nav_background_new.png") no-repeat center;
+    position: relative;
+
+}
+nav ul{
+	width: 75%;
+	margin: 0 auto;
+    padding-top: 26px;
+
+}
+nav ul li{
+
+    border: solid 2px transparent;
+    letter-spacing: .15em;
+    color: #ffffff;
+    margin-top: .3%;
+    margin-left: 34px;
+    padding: 5px 10px;
+    display:inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color: hsla(0, 0%, 69%, 0.55);
+    border: 2px inset hsla(0, 0%, 87%, 0.76);
+
+}
+
+/*======== Start of selena css here======*/
+
+section{
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid blue;*/
+
+}
+
+article{
+    width: 50%;
+    float: left;
+    height: 180px;
+    padding-top: 125px;
+    padding-left: 20px;
+    border: 1px solid blue;
+}
+
+/*======== End of selena css here======*/
 
 
-/*======== footer======*/
+
+
+/*======== footer ======*/
 
 footer{
 	max-width:100%;

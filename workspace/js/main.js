@@ -8,6 +8,10 @@ $(document).ready(function(){
     
     
     
+   $("section a").click(function(){
+       
+       $("#launch").fadeIn(500);
+   }); 
     
     
     
