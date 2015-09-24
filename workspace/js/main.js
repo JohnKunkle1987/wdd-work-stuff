@@ -1,18 +1,20 @@
 $(document).ready(function(){
     
     
-    $("#launch a").click(function(){
-        $("#launch").fadeOut(500);
-        
+
+    $("#launch a").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#test").offset().top
+    }, 1000);
     });
     
     
-    
-   $("section a").click(function(){
-       
-       $("#launch").fadeIn(500);
-   }); 
-    
-    
+    //Page blinks when this is clicked
+    $("footer section #up").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#launch").offset().top
+    }, 1000);
+});
+
     
 });
