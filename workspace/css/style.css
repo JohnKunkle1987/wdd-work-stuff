@@ -123,11 +123,11 @@ section p{
 }
 
 article{
-    width: calc(50% - 15px);
+    width: calc(50% - 10px);
     float: left;
    height:300px;
   padding: 15px;
-margin-top:20px;
+margin-top: 5px;
     /*border: 1px solid blue;*/
     position: relative;
     font-size: 16px;
@@ -137,7 +137,7 @@ margin-top:20px;
 
 article:nth-of-type(odd)
 {
-    margin-right: 15px;  
+    margin-right: 5px;  
    
 }
 
@@ -188,6 +188,7 @@ footer{
 	color:#fefff6;
 	background-color:#525564;
 	height: 300px;
+	
 	overflow:auto;
 }
 
@@ -269,6 +270,17 @@ footer h2{
 footer p{
 	text-align: center;
 	font-size:1em;
+}
+
+#thanks {
+    font-family:"Roboto Bold";
+    width: 600px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px;
+    color: #525564;
 }
 
 .border{
