@@ -8,7 +8,6 @@ $(document).ready(function(){
     }, 1000);
     });
     
-    
     //Page blinks when this is clicked
     $("footer section #up").click(function() {
     $('html, body').animate({

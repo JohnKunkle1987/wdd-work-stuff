@@ -97,9 +97,9 @@ nav ul li:hover{
 /*======== Start of selena css here======*/
 
 #test{
-    padding: 0 0 20px 15px;
+    padding: 0 0 5px 15px;
     width: 100%;
-    margin: 0 15px 15px auto;
+    margin: 0 15px 0px auto;
     background-color: #FEF6EB;
    /*border: 1px solid blue;*/
    overflow:auto;
@@ -125,7 +125,6 @@ section p{
 article{
     width: calc(50% - 10px);
     float: left;
-   height:300px;
   padding: 15px;
 margin-top: 5px;
     /*border: 1px solid blue;*/
@@ -133,6 +132,7 @@ margin-top: 5px;
     font-size: 16px;
     background-color:rgba(82,85,100,0.9);
     overflow:hidden;
+    height: 300px;
 }
 
 article:nth-of-type(odd)
@@ -188,7 +188,6 @@ footer{
 	color:#fefff6;
 	background-color:#525564;
 	height: 300px;
-	
 	overflow:auto;
 }
 
@@ -279,7 +278,7 @@ footer p{
     display: block;
     margin: 0 auto;
     text-align: left;
-    padding: 15px;
+    padding: 15px 15px 25px;
     color: #525564;
 }
 
